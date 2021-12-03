@@ -30,5 +30,10 @@ namespace SonoraCreativaV2_2.Payment
             this.inventarioTableAdapter.Fill(this.cobrosIdItemListDS.inventario);
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
