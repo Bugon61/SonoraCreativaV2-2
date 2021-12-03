@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Editar_Usuario));
             this.groupBoxEditUser = new System.Windows.Forms.GroupBox();
             this.comboBoxSelectId = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -68,9 +69,11 @@
             this.groupBoxEditUser.Controls.Add(this.label2);
             this.groupBoxEditUser.Controls.Add(this.textBoxName);
             this.groupBoxEditUser.Controls.Add(this.label1);
-            this.groupBoxEditUser.Location = new System.Drawing.Point(12, 22);
+            this.groupBoxEditUser.Location = new System.Drawing.Point(9, 18);
+            this.groupBoxEditUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBoxEditUser.Name = "groupBoxEditUser";
-            this.groupBoxEditUser.Size = new System.Drawing.Size(776, 386);
+            this.groupBoxEditUser.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxEditUser.Size = new System.Drawing.Size(582, 314);
             this.groupBoxEditUser.TabIndex = 3;
             this.groupBoxEditUser.TabStop = false;
             this.groupBoxEditUser.Text = "Editar usuario";
@@ -83,45 +86,51 @@
             "Matutino Parcial",
             "Vespertino (14:00-22:00)",
             "Vespertino Parcial"});
-            this.comboBoxSelectId.Location = new System.Drawing.Point(146, 32);
+            this.comboBoxSelectId.Location = new System.Drawing.Point(110, 26);
+            this.comboBoxSelectId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxSelectId.Name = "comboBoxSelectId";
-            this.comboBoxSelectId.Size = new System.Drawing.Size(198, 24);
+            this.comboBoxSelectId.Size = new System.Drawing.Size(150, 21);
             this.comboBoxSelectId.TabIndex = 19;
             this.comboBoxSelectId.Text = "Seleccione id...";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(8, 35);
+            this.label10.Location = new System.Drawing.Point(6, 28);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(132, 16);
+            this.label10.Size = new System.Drawing.Size(105, 13);
             this.label10.TabIndex = 18;
             this.label10.Text = "Seleccionar Usuario:";
             // 
             // buttonSaveChanges
             // 
-            this.buttonSaveChanges.Location = new System.Drawing.Point(303, 333);
+            this.buttonSaveChanges.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonSaveChanges.Location = new System.Drawing.Point(227, 271);
+            this.buttonSaveChanges.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSaveChanges.Name = "buttonSaveChanges";
-            this.buttonSaveChanges.Size = new System.Drawing.Size(141, 37);
+            this.buttonSaveChanges.Size = new System.Drawing.Size(106, 30);
             this.buttonSaveChanges.TabIndex = 8;
             this.buttonSaveChanges.Text = "Guardar Cambios";
-            this.buttonSaveChanges.UseVisualStyleBackColor = true;
+            this.buttonSaveChanges.UseVisualStyleBackColor = false;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(38, 217);
+            this.label9.Location = new System.Drawing.Point(24, 176);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 16);
+            this.label9.Size = new System.Drawing.Size(38, 13);
             this.label9.TabIndex = 17;
             this.label9.Text = "Notas:";
             // 
             // textBoxNotes
             // 
-            this.textBoxNotes.Location = new System.Drawing.Point(87, 217);
+            this.textBoxNotes.Location = new System.Drawing.Point(65, 176);
+            this.textBoxNotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxNotes.Multiline = true;
             this.textBoxNotes.Name = "textBoxNotes";
-            this.textBoxNotes.Size = new System.Drawing.Size(597, 100);
+            this.textBoxNotes.Size = new System.Drawing.Size(449, 82);
             this.textBoxNotes.TabIndex = 16;
             // 
             // comboBoxSchedule
@@ -132,18 +141,20 @@
             "Matutino Parcial",
             "Vespertino (14:00-22:00)",
             "Vespertino Parcial"});
-            this.comboBoxSchedule.Location = new System.Drawing.Point(486, 126);
+            this.comboBoxSchedule.Location = new System.Drawing.Point(364, 102);
+            this.comboBoxSchedule.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxSchedule.Name = "comboBoxSchedule";
-            this.comboBoxSchedule.Size = new System.Drawing.Size(198, 24);
+            this.comboBoxSchedule.Size = new System.Drawing.Size(150, 21);
             this.comboBoxSchedule.TabIndex = 15;
             this.comboBoxSchedule.Text = "Seleccione una opcion";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(435, 129);
+            this.label8.Location = new System.Drawing.Point(326, 105);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 16);
+            this.label8.Size = new System.Drawing.Size(38, 13);
             this.label8.TabIndex = 14;
             this.label8.Text = "Turno:";
             // 
@@ -153,93 +164,106 @@
             this.comboBoxUsertype.Items.AddRange(new object[] {
             "Empleado",
             "Administrador"});
-            this.comboBoxUsertype.Location = new System.Drawing.Point(486, 80);
+            this.comboBoxUsertype.Location = new System.Drawing.Point(364, 65);
+            this.comboBoxUsertype.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxUsertype.Name = "comboBoxUsertype";
-            this.comboBoxUsertype.Size = new System.Drawing.Size(198, 24);
+            this.comboBoxUsertype.Size = new System.Drawing.Size(150, 21);
             this.comboBoxUsertype.TabIndex = 9;
             this.comboBoxUsertype.Text = "Seleccione una opcion";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(376, 83);
+            this.label5.Location = new System.Drawing.Point(282, 67);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 16);
+            this.label5.Size = new System.Drawing.Size(83, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Tipo de usuario:";
             // 
             // textBoxUsername
             // 
-            this.textBoxUsername.Location = new System.Drawing.Point(486, 34);
+            this.textBoxUsername.Location = new System.Drawing.Point(364, 28);
+            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(198, 22);
+            this.textBoxUsername.Size = new System.Drawing.Size(150, 20);
             this.textBoxUsername.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(355, 37);
+            this.label4.Location = new System.Drawing.Point(266, 30);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 16);
+            this.label4.Size = new System.Drawing.Size(99, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Nombre de usuario:";
             // 
             // textBoxMLastname
             // 
-            this.textBoxMLastname.Location = new System.Drawing.Point(146, 171);
+            this.textBoxMLastname.Location = new System.Drawing.Point(110, 139);
+            this.textBoxMLastname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxMLastname.Name = "textBoxMLastname";
-            this.textBoxMLastname.Size = new System.Drawing.Size(198, 22);
+            this.textBoxMLastname.Size = new System.Drawing.Size(150, 20);
             this.textBoxMLastname.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(31, 174);
+            this.label3.Location = new System.Drawing.Point(23, 141);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 16);
+            this.label3.Size = new System.Drawing.Size(88, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Apellido materno:";
             // 
             // textBoxPLastname
             // 
-            this.textBoxPLastname.Location = new System.Drawing.Point(146, 126);
+            this.textBoxPLastname.Location = new System.Drawing.Point(110, 102);
+            this.textBoxPLastname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxPLastname.Name = "textBoxPLastname";
-            this.textBoxPLastname.Size = new System.Drawing.Size(198, 22);
+            this.textBoxPLastname.Size = new System.Drawing.Size(150, 20);
             this.textBoxPLastname.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 129);
+            this.label2.Location = new System.Drawing.Point(25, 105);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 16);
+            this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Apellido paterno:";
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(146, 80);
+            this.textBoxName.Location = new System.Drawing.Point(110, 65);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(198, 22);
+            this.textBoxName.Size = new System.Drawing.Size(150, 20);
             this.textBoxName.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(84, 83);
+            this.label1.Location = new System.Drawing.Point(63, 67);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 16);
+            this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre:";
             // 
             // Editar_Usuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 430);
+            this.BackColor = System.Drawing.Color.PapayaWhip;
+            this.ClientSize = new System.Drawing.Size(600, 349);
             this.Controls.Add(this.groupBoxEditUser);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Editar_Usuario";
-            this.Text = "Editar_Usuario";
+            this.Text = "Editar Usuario";
             this.Load += new System.EventHandler(this.Editar_Usuario_Load);
             this.groupBoxEditUser.ResumeLayout(false);
             this.groupBoxEditUser.PerformLayout();
