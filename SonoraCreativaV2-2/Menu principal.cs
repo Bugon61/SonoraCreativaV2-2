@@ -50,5 +50,10 @@ namespace SonoraCreativaV2_2
             login.Show();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
