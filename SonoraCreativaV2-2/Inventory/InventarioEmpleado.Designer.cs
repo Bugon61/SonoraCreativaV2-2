@@ -45,10 +45,12 @@
             this.buttonSearchProduct = new System.Windows.Forms.Button();
             this.textBoxSearchProduct = new System.Windows.Forms.TextBox();
             this.inventarioTableAdapter = new SonoraCreativaV2_2.InventarioEmpleadosDSTableAdapters.inventarioTableAdapter();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxGridView.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioEmpleadosDS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonPMenu
@@ -56,7 +58,7 @@
             this.buttonPMenu.BackColor = System.Drawing.Color.Peru;
             this.buttonPMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPMenu.Location = new System.Drawing.Point(14, 10);
-            this.buttonPMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPMenu.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPMenu.Name = "buttonPMenu";
             this.buttonPMenu.Size = new System.Drawing.Size(106, 30);
             this.buttonPMenu.TabIndex = 25;
@@ -68,7 +70,7 @@
             // 
             this.buttonLogout.BackColor = System.Drawing.Color.Peru;
             this.buttonLogout.Location = new System.Drawing.Point(854, 10);
-            this.buttonLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLogout.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogout.Name = "buttonLogout";
             this.buttonLogout.Size = new System.Drawing.Size(106, 30);
             this.buttonLogout.TabIndex = 24;
@@ -79,9 +81,9 @@
             // 
             this.groupBoxGridView.Controls.Add(this.dataGridView1);
             this.groupBoxGridView.Location = new System.Drawing.Point(9, 102);
-            this.groupBoxGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxGridView.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxGridView.Name = "groupBoxGridView";
-            this.groupBoxGridView.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxGridView.Padding = new System.Windows.Forms.Padding(2);
             this.groupBoxGridView.Size = new System.Drawing.Size(950, 494);
             this.groupBoxGridView.TabIndex = 23;
             this.groupBoxGridView.TabStop = false;
@@ -100,7 +102,7 @@
             this.precioDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.inventarioBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(4, 17);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -162,7 +164,7 @@
             // 
             this.buttonInfoProduct.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.buttonInfoProduct.Location = new System.Drawing.Point(346, 67);
-            this.buttonInfoProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonInfoProduct.Margin = new System.Windows.Forms.Padding(2);
             this.buttonInfoProduct.Name = "buttonInfoProduct";
             this.buttonInfoProduct.Size = new System.Drawing.Size(106, 30);
             this.buttonInfoProduct.TabIndex = 21;
@@ -173,7 +175,7 @@
             // 
             this.buttonSearchProduct.BackColor = System.Drawing.Color.Gold;
             this.buttonSearchProduct.Location = new System.Drawing.Point(236, 67);
-            this.buttonSearchProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSearchProduct.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSearchProduct.Name = "buttonSearchProduct";
             this.buttonSearchProduct.Size = new System.Drawing.Size(106, 30);
             this.buttonSearchProduct.TabIndex = 20;
@@ -183,7 +185,7 @@
             // textBoxSearchProduct
             // 
             this.textBoxSearchProduct.Location = new System.Drawing.Point(14, 72);
-            this.textBoxSearchProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxSearchProduct.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSearchProduct.Name = "textBoxSearchProduct";
             this.textBoxSearchProduct.Size = new System.Drawing.Size(219, 20);
             this.textBoxSearchProduct.TabIndex = 26;
@@ -193,12 +195,25 @@
             // 
             this.inventarioTableAdapter.ClearBeforeFill = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::SonoraCreativaV2_2.Properties.Resources.Logo_Sonora_Creativa___copia;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(511, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(231, 86);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            // 
             // InventarioEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.ClientSize = new System.Drawing.Size(968, 605);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBoxSearchProduct);
             this.Controls.Add(this.buttonPMenu);
             this.Controls.Add(this.buttonLogout);
@@ -206,7 +221,7 @@
             this.Controls.Add(this.buttonInfoProduct);
             this.Controls.Add(this.buttonSearchProduct);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "InventarioEmpleado";
             this.Text = "Inventario";
             this.Load += new System.EventHandler(this.InventarioEmpleado_Load);
@@ -214,6 +229,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioEmpleadosDS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,5 +252,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tipoproductoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidadDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn precioDataGridViewTextBoxColumn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

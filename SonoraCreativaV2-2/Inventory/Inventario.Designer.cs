@@ -60,18 +60,20 @@
             this.precioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonPMenu = new System.Windows.Forms.Button();
             this.inventarioTableAdapter = new SonoraCreativaV2_2.InventarioGVDSTableAdapters.inventarioTableAdapter();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxRegisterProduct.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioGVDS)).BeginInit();
             this.groupBoxGridView.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonLogout
             // 
             this.buttonLogout.BackColor = System.Drawing.Color.Peru;
             this.buttonLogout.Location = new System.Drawing.Point(854, 10);
-            this.buttonLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLogout.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogout.Name = "buttonLogout";
             this.buttonLogout.Size = new System.Drawing.Size(106, 30);
             this.buttonLogout.TabIndex = 24;
@@ -82,7 +84,7 @@
             // 
             this.buttonSearchProduct.BackColor = System.Drawing.Color.Gold;
             this.buttonSearchProduct.Location = new System.Drawing.Point(236, 75);
-            this.buttonSearchProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSearchProduct.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSearchProduct.Name = "buttonSearchProduct";
             this.buttonSearchProduct.Size = new System.Drawing.Size(106, 30);
             this.buttonSearchProduct.TabIndex = 23;
@@ -93,7 +95,7 @@
             // 
             this.buttonInfoProduct.BackColor = System.Drawing.Color.Goldenrod;
             this.buttonInfoProduct.Location = new System.Drawing.Point(236, 110);
-            this.buttonInfoProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonInfoProduct.Margin = new System.Windows.Forms.Padding(2);
             this.buttonInfoProduct.Name = "buttonInfoProduct";
             this.buttonInfoProduct.Size = new System.Drawing.Size(106, 30);
             this.buttonInfoProduct.TabIndex = 22;
@@ -104,7 +106,7 @@
             // 
             this.buttonEditProduct.BackColor = System.Drawing.Color.Goldenrod;
             this.buttonEditProduct.Location = new System.Drawing.Point(346, 110);
-            this.buttonEditProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEditProduct.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEditProduct.Name = "buttonEditProduct";
             this.buttonEditProduct.Size = new System.Drawing.Size(106, 30);
             this.buttonEditProduct.TabIndex = 21;
@@ -115,7 +117,7 @@
             // 
             this.buttonDeleteProduct.BackColor = System.Drawing.Color.Goldenrod;
             this.buttonDeleteProduct.Location = new System.Drawing.Point(457, 110);
-            this.buttonDeleteProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDeleteProduct.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDeleteProduct.Name = "buttonDeleteProduct";
             this.buttonDeleteProduct.Size = new System.Drawing.Size(106, 30);
             this.buttonDeleteProduct.TabIndex = 20;
@@ -125,7 +127,7 @@
             // textBoxSearchProduct
             // 
             this.textBoxSearchProduct.Location = new System.Drawing.Point(9, 80);
-            this.textBoxSearchProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxSearchProduct.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSearchProduct.Name = "textBoxSearchProduct";
             this.textBoxSearchProduct.Size = new System.Drawing.Size(224, 20);
             this.textBoxSearchProduct.TabIndex = 19;
@@ -146,9 +148,9 @@
             this.groupBoxRegisterProduct.Controls.Add(this.textBoxProductName);
             this.groupBoxRegisterProduct.Controls.Add(this.label1);
             this.groupBoxRegisterProduct.Location = new System.Drawing.Point(689, 145);
-            this.groupBoxRegisterProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxRegisterProduct.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxRegisterProduct.Name = "groupBoxRegisterProduct";
-            this.groupBoxRegisterProduct.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxRegisterProduct.Padding = new System.Windows.Forms.Padding(2);
             this.groupBoxRegisterProduct.Size = new System.Drawing.Size(270, 451);
             this.groupBoxRegisterProduct.TabIndex = 18;
             this.groupBoxRegisterProduct.TabStop = false;
@@ -157,7 +159,7 @@
             // textBoxPrice
             // 
             this.textBoxPrice.Location = new System.Drawing.Point(110, 266);
-            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.Size = new System.Drawing.Size(150, 20);
             this.textBoxPrice.TabIndex = 19;
@@ -177,7 +179,7 @@
             // 
             this.buttonSaveProduct.BackColor = System.Drawing.Color.Gold;
             this.buttonSaveProduct.Location = new System.Drawing.Point(32, 416);
-            this.buttonSaveProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSaveProduct.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSaveProduct.Name = "buttonSaveProduct";
             this.buttonSaveProduct.Size = new System.Drawing.Size(106, 30);
             this.buttonSaveProduct.TabIndex = 8;
@@ -198,7 +200,7 @@
             // 
             this.buttonCleanFields.BackColor = System.Drawing.Color.Gold;
             this.buttonCleanFields.Location = new System.Drawing.Point(142, 416);
-            this.buttonCleanFields.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCleanFields.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCleanFields.Name = "buttonCleanFields";
             this.buttonCleanFields.Size = new System.Drawing.Size(106, 30);
             this.buttonCleanFields.TabIndex = 7;
@@ -208,7 +210,7 @@
             // textBoxProductDescription
             // 
             this.textBoxProductDescription.Location = new System.Drawing.Point(78, 54);
-            this.textBoxProductDescription.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxProductDescription.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxProductDescription.Multiline = true;
             this.textBoxProductDescription.Name = "textBoxProductDescription";
             this.textBoxProductDescription.Size = new System.Drawing.Size(188, 120);
@@ -217,7 +219,7 @@
             // textBoxQuantity
             // 
             this.textBoxQuantity.Location = new System.Drawing.Point(110, 228);
-            this.textBoxQuantity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxQuantity.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxQuantity.Name = "textBoxQuantity";
             this.textBoxQuantity.Size = new System.Drawing.Size(150, 20);
             this.textBoxQuantity.TabIndex = 11;
@@ -242,7 +244,7 @@
             "Artesanias",
             "Ropa"});
             this.comboBoxProducttype.Location = new System.Drawing.Point(110, 188);
-            this.comboBoxProducttype.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxProducttype.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxProducttype.Name = "comboBoxProducttype";
             this.comboBoxProducttype.Size = new System.Drawing.Size(150, 21);
             this.comboBoxProducttype.TabIndex = 9;
@@ -271,7 +273,7 @@
             // textBoxProductName
             // 
             this.textBoxProductName.Location = new System.Drawing.Point(110, 31);
-            this.textBoxProductName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxProductName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxProductName.Name = "textBoxProductName";
             this.textBoxProductName.Size = new System.Drawing.Size(150, 20);
             this.textBoxProductName.TabIndex = 1;
@@ -290,9 +292,9 @@
             // 
             this.groupBoxGridView.Controls.Add(this.dataGridView1);
             this.groupBoxGridView.Location = new System.Drawing.Point(9, 145);
-            this.groupBoxGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxGridView.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxGridView.Name = "groupBoxGridView";
-            this.groupBoxGridView.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxGridView.Padding = new System.Windows.Forms.Padding(2);
             this.groupBoxGridView.Size = new System.Drawing.Size(676, 451);
             this.groupBoxGridView.TabIndex = 17;
             this.groupBoxGridView.TabStop = false;
@@ -311,7 +313,7 @@
             this.precioDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.inventarioBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(4, 17);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -364,7 +366,7 @@
             this.buttonPMenu.BackColor = System.Drawing.Color.Peru;
             this.buttonPMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPMenu.Location = new System.Drawing.Point(9, 10);
-            this.buttonPMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPMenu.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPMenu.Name = "buttonPMenu";
             this.buttonPMenu.Size = new System.Drawing.Size(106, 30);
             this.buttonPMenu.TabIndex = 25;
@@ -376,12 +378,25 @@
             // 
             this.inventarioTableAdapter.ClearBeforeFill = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::SonoraCreativaV2_2.Properties.Resources.Logo_Sonora_Creativa___copia;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(504, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(231, 86);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            // 
             // Inventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.ClientSize = new System.Drawing.Size(968, 605);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonPMenu);
             this.Controls.Add(this.buttonLogout);
             this.Controls.Add(this.buttonSearchProduct);
@@ -392,7 +407,7 @@
             this.Controls.Add(this.groupBoxRegisterProduct);
             this.Controls.Add(this.groupBoxGridView);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Inventario";
             this.Text = "Control de Inventario";
             this.Load += new System.EventHandler(this.Inventario_Load);
@@ -402,6 +417,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.inventarioGVDS)).EndInit();
             this.groupBoxGridView.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -439,5 +455,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tipoproductoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidadDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn precioDataGridViewTextBoxColumn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
