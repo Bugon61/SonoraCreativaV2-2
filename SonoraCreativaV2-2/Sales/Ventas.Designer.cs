@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ventas));
             this.buttonLogout = new System.Windows.Forms.Button();
             this.groupBoxGridView = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -41,82 +42,98 @@
             // 
             // buttonLogout
             // 
-            this.buttonLogout.Location = new System.Drawing.Point(1138, 12);
+            this.buttonLogout.BackColor = System.Drawing.Color.Peru;
+            this.buttonLogout.Location = new System.Drawing.Point(854, 10);
+            this.buttonLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonLogout.Name = "buttonLogout";
-            this.buttonLogout.Size = new System.Drawing.Size(141, 37);
+            this.buttonLogout.Size = new System.Drawing.Size(106, 30);
             this.buttonLogout.TabIndex = 18;
             this.buttonLogout.Text = "Cerrar Sesión";
-            this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.UseVisualStyleBackColor = false;
             // 
             // groupBoxGridView
             // 
             this.groupBoxGridView.Controls.Add(this.dataGridView1);
-            this.groupBoxGridView.Location = new System.Drawing.Point(12, 125);
+            this.groupBoxGridView.Location = new System.Drawing.Point(9, 102);
+            this.groupBoxGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBoxGridView.Name = "groupBoxGridView";
-            this.groupBoxGridView.Size = new System.Drawing.Size(1267, 608);
+            this.groupBoxGridView.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxGridView.Size = new System.Drawing.Size(950, 494);
             this.groupBoxGridView.TabIndex = 17;
             this.groupBoxGridView.TabStop = false;
             this.groupBoxGridView.Text = "Seleccione la venta que desea revisar";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 21);
+            this.dataGridView1.Location = new System.Drawing.Point(4, 17);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1255, 581);
+            this.dataGridView1.Size = new System.Drawing.Size(941, 472);
             this.dataGridView1.TabIndex = 0;
             // 
             // comboBoxDateSearchPH
             // 
             this.comboBoxDateSearchPH.FormattingEnabled = true;
-            this.comboBoxDateSearchPH.Location = new System.Drawing.Point(12, 89);
+            this.comboBoxDateSearchPH.Location = new System.Drawing.Point(9, 72);
+            this.comboBoxDateSearchPH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxDateSearchPH.Name = "comboBoxDateSearchPH";
-            this.comboBoxDateSearchPH.Size = new System.Drawing.Size(297, 24);
+            this.comboBoxDateSearchPH.Size = new System.Drawing.Size(224, 21);
             this.comboBoxDateSearchPH.TabIndex = 16;
             this.comboBoxDateSearchPH.Text = "Selecciona una fecha";
             // 
             // buttonInfoSale
             // 
-            this.buttonInfoSale.Location = new System.Drawing.Point(462, 82);
+            this.buttonInfoSale.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonInfoSale.Location = new System.Drawing.Point(346, 67);
+            this.buttonInfoSale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonInfoSale.Name = "buttonInfoSale";
-            this.buttonInfoSale.Size = new System.Drawing.Size(141, 37);
+            this.buttonInfoSale.Size = new System.Drawing.Size(106, 30);
             this.buttonInfoSale.TabIndex = 15;
             this.buttonInfoSale.Text = "Ver Informacion";
-            this.buttonInfoSale.UseVisualStyleBackColor = true;
+            this.buttonInfoSale.UseVisualStyleBackColor = false;
             // 
             // buttonSearchSale
             // 
-            this.buttonSearchSale.Location = new System.Drawing.Point(315, 82);
+            this.buttonSearchSale.BackColor = System.Drawing.Color.Gold;
+            this.buttonSearchSale.Location = new System.Drawing.Point(236, 67);
+            this.buttonSearchSale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSearchSale.Name = "buttonSearchSale";
-            this.buttonSearchSale.Size = new System.Drawing.Size(141, 37);
+            this.buttonSearchSale.Size = new System.Drawing.Size(106, 30);
             this.buttonSearchSale.TabIndex = 14;
             this.buttonSearchSale.Text = "Buscar";
-            this.buttonSearchSale.UseVisualStyleBackColor = true;
+            this.buttonSearchSale.UseVisualStyleBackColor = false;
             // 
             // buttonPMenu
             // 
+            this.buttonPMenu.BackColor = System.Drawing.Color.Peru;
             this.buttonPMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPMenu.Location = new System.Drawing.Point(18, 12);
+            this.buttonPMenu.Location = new System.Drawing.Point(14, 10);
+            this.buttonPMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonPMenu.Name = "buttonPMenu";
-            this.buttonPMenu.Size = new System.Drawing.Size(141, 37);
+            this.buttonPMenu.Size = new System.Drawing.Size(106, 30);
             this.buttonPMenu.TabIndex = 19;
             this.buttonPMenu.Text = "Menu principal";
-            this.buttonPMenu.UseVisualStyleBackColor = true;
+            this.buttonPMenu.UseVisualStyleBackColor = false;
             this.buttonPMenu.Click += new System.EventHandler(this.buttonPMenu_Click);
             // 
             // Ventas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1291, 745);
+            this.BackColor = System.Drawing.Color.PapayaWhip;
+            this.ClientSize = new System.Drawing.Size(968, 605);
             this.Controls.Add(this.buttonPMenu);
             this.Controls.Add(this.buttonLogout);
             this.Controls.Add(this.groupBoxGridView);
             this.Controls.Add(this.comboBoxDateSearchPH);
             this.Controls.Add(this.buttonInfoSale);
             this.Controls.Add(this.buttonSearchSale);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Ventas";
             this.Text = "Registro de Ventas";
             this.groupBoxGridView.ResumeLayout(false);
