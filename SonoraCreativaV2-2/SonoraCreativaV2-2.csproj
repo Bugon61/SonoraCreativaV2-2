@@ -193,6 +193,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Sales\Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
@@ -270,6 +271,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Logo-Sonora-Creativa-copia.ico" />
+    <None Include="Resources\Logo Sonora Creativa - copia.png" />
     <Content Include="SonoraCreativaBD.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
