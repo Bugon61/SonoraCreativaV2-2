@@ -272,6 +272,7 @@
   <ItemGroup>
     <Content Include="Logo-Sonora-Creativa-copia.ico" />
     <None Include="Resources\Logo Sonora Creativa - copia.png" />
+    <None Include="Resources\icone-loupe-gris1.png" />
     <Content Include="SonoraCreativaBD.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

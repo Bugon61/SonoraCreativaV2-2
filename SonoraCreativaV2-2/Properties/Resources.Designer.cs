@@ -63,6 +63,16 @@ namespace SonoraCreativaV2_2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icone_loupe_gris {
+            get {
+                object obj = ResourceManager.GetObject("icone-loupe-gris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_Sonora_Creativa___copia {
             get {
                 object obj = ResourceManager.GetObject("Logo Sonora Creativa - copia", resourceCulture);

@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuarios));
-            this.buttonSearchUser = new System.Windows.Forms.Button();
             this.buttonInfoUser = new System.Windows.Forms.Button();
             this.buttonEditUser = new System.Windows.Forms.Button();
             this.buttonDeleteUser = new System.Windows.Forms.Button();
@@ -70,6 +69,7 @@
             this.buttonLogout = new System.Windows.Forms.Button();
             this.usuariosTableAdapter = new SonoraCreativaV2_2.UsuarioGVDSTableAdapters.usuariosTableAdapter();
             this.buttonPMenu = new System.Windows.Forms.Button();
+            this.buttonSearchUser = new System.Windows.Forms.Button();
             this.groupBoxRegisterUser.SuspendLayout();
             this.groupBoxGridView.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -77,50 +77,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.usuarioGVDS)).BeginInit();
             this.SuspendLayout();
             // 
-            // buttonSearchUser
-            // 
-            this.buttonSearchUser.Location = new System.Drawing.Point(236, 75);
-            this.buttonSearchUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.buttonSearchUser.Name = "buttonSearchUser";
-            this.buttonSearchUser.Size = new System.Drawing.Size(106, 30);
-            this.buttonSearchUser.TabIndex = 15;
-            this.buttonSearchUser.Text = "Buscar";
-            this.buttonSearchUser.UseVisualStyleBackColor = true;
-            // 
             // buttonInfoUser
             // 
+            this.buttonInfoUser.BackColor = System.Drawing.Color.Goldenrod;
             this.buttonInfoUser.Location = new System.Drawing.Point(236, 110);
-            this.buttonInfoUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonInfoUser.Margin = new System.Windows.Forms.Padding(2);
             this.buttonInfoUser.Name = "buttonInfoUser";
             this.buttonInfoUser.Size = new System.Drawing.Size(106, 30);
             this.buttonInfoUser.TabIndex = 14;
             this.buttonInfoUser.Text = "Ver Informacion";
-            this.buttonInfoUser.UseVisualStyleBackColor = true;
+            this.buttonInfoUser.UseVisualStyleBackColor = false;
             // 
             // buttonEditUser
             // 
+            this.buttonEditUser.BackColor = System.Drawing.Color.Goldenrod;
             this.buttonEditUser.Location = new System.Drawing.Point(346, 110);
-            this.buttonEditUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEditUser.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEditUser.Name = "buttonEditUser";
             this.buttonEditUser.Size = new System.Drawing.Size(106, 30);
             this.buttonEditUser.TabIndex = 13;
             this.buttonEditUser.Text = "Editar usuario";
-            this.buttonEditUser.UseVisualStyleBackColor = true;
+            this.buttonEditUser.UseVisualStyleBackColor = false;
             // 
             // buttonDeleteUser
             // 
+            this.buttonDeleteUser.BackColor = System.Drawing.Color.Goldenrod;
             this.buttonDeleteUser.Location = new System.Drawing.Point(457, 110);
-            this.buttonDeleteUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDeleteUser.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDeleteUser.Name = "buttonDeleteUser";
             this.buttonDeleteUser.Size = new System.Drawing.Size(106, 30);
             this.buttonDeleteUser.TabIndex = 12;
             this.buttonDeleteUser.Text = "Eliminar usuario";
-            this.buttonDeleteUser.UseVisualStyleBackColor = true;
+            this.buttonDeleteUser.UseVisualStyleBackColor = false;
             // 
             // textBoxSUser
             // 
             this.textBoxSUser.Location = new System.Drawing.Point(9, 80);
-            this.textBoxSUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxSUser.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSUser.Name = "textBoxSUser";
             this.textBoxSUser.Size = new System.Drawing.Size(224, 20);
             this.textBoxSUser.TabIndex = 11;
@@ -128,13 +121,14 @@
             // 
             // buttonChangePassword
             // 
+            this.buttonChangePassword.BackColor = System.Drawing.Color.Goldenrod;
             this.buttonChangePassword.Location = new System.Drawing.Point(567, 110);
-            this.buttonChangePassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonChangePassword.Margin = new System.Windows.Forms.Padding(2);
             this.buttonChangePassword.Name = "buttonChangePassword";
             this.buttonChangePassword.Size = new System.Drawing.Size(118, 30);
             this.buttonChangePassword.TabIndex = 10;
             this.buttonChangePassword.Text = "Cambiar contraseña";
-            this.buttonChangePassword.UseVisualStyleBackColor = true;
+            this.buttonChangePassword.UseVisualStyleBackColor = false;
             // 
             // groupBoxRegisterUser
             // 
@@ -159,9 +153,9 @@
             this.groupBoxRegisterUser.Controls.Add(this.textBoxName);
             this.groupBoxRegisterUser.Controls.Add(this.label1);
             this.groupBoxRegisterUser.Location = new System.Drawing.Point(689, 145);
-            this.groupBoxRegisterUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxRegisterUser.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxRegisterUser.Name = "groupBoxRegisterUser";
-            this.groupBoxRegisterUser.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxRegisterUser.Padding = new System.Windows.Forms.Padding(2);
             this.groupBoxRegisterUser.Size = new System.Drawing.Size(270, 451);
             this.groupBoxRegisterUser.TabIndex = 9;
             this.groupBoxRegisterUser.TabStop = false;
@@ -169,19 +163,20 @@
             // 
             // buttonSaveUser
             // 
+            this.buttonSaveUser.BackColor = System.Drawing.Color.Gold;
             this.buttonSaveUser.Location = new System.Drawing.Point(32, 416);
-            this.buttonSaveUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSaveUser.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSaveUser.Name = "buttonSaveUser";
             this.buttonSaveUser.Size = new System.Drawing.Size(106, 30);
             this.buttonSaveUser.TabIndex = 8;
             this.buttonSaveUser.Text = "Guardar";
-            this.buttonSaveUser.UseVisualStyleBackColor = true;
+            this.buttonSaveUser.UseVisualStyleBackColor = false;
             this.buttonSaveUser.Click += new System.EventHandler(this.buttonSaveUser_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(4, 332);
+            this.label9.Location = new System.Drawing.Point(1, 332);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 13);
@@ -190,19 +185,20 @@
             // 
             // buttonCleanFields
             // 
+            this.buttonCleanFields.BackColor = System.Drawing.Color.Gold;
             this.buttonCleanFields.Location = new System.Drawing.Point(142, 416);
-            this.buttonCleanFields.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCleanFields.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCleanFields.Name = "buttonCleanFields";
             this.buttonCleanFields.Size = new System.Drawing.Size(106, 30);
             this.buttonCleanFields.TabIndex = 7;
             this.buttonCleanFields.Text = "Limpiar";
-            this.buttonCleanFields.UseVisualStyleBackColor = true;
+            this.buttonCleanFields.UseVisualStyleBackColor = false;
             this.buttonCleanFields.Click += new System.EventHandler(this.buttonCleanFields_Click);
             // 
             // textBoxNotes
             // 
             this.textBoxNotes.Location = new System.Drawing.Point(41, 332);
-            this.textBoxNotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNotes.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNotes.Multiline = true;
             this.textBoxNotes.Name = "textBoxNotes";
             this.textBoxNotes.Size = new System.Drawing.Size(218, 70);
@@ -217,7 +213,7 @@
             "Vespertino (14:00-22:00)",
             "Vespertino Parcial"});
             this.comboBoxSchedule.Location = new System.Drawing.Point(110, 294);
-            this.comboBoxSchedule.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxSchedule.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxSchedule.Name = "comboBoxSchedule";
             this.comboBoxSchedule.Size = new System.Drawing.Size(150, 21);
             this.comboBoxSchedule.TabIndex = 15;
@@ -236,7 +232,7 @@
             // textBoxCPassword
             // 
             this.textBoxCPassword.Location = new System.Drawing.Point(110, 258);
-            this.textBoxCPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxCPassword.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxCPassword.Name = "textBoxCPassword";
             this.textBoxCPassword.PasswordChar = '●';
             this.textBoxCPassword.Size = new System.Drawing.Size(150, 20);
@@ -255,7 +251,7 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(110, 218);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '●';
             this.textBoxPassword.Size = new System.Drawing.Size(150, 20);
@@ -278,7 +274,7 @@
             "Empleado",
             "Administrador"});
             this.comboBoxUsertype.Location = new System.Drawing.Point(110, 178);
-            this.comboBoxUsertype.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxUsertype.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxUsertype.Name = "comboBoxUsertype";
             this.comboBoxUsertype.Size = new System.Drawing.Size(150, 21);
             this.comboBoxUsertype.TabIndex = 9;
@@ -297,7 +293,7 @@
             // textBoxUsername
             // 
             this.textBoxUsername.Location = new System.Drawing.Point(110, 145);
-            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUsername.Name = "textBoxUsername";
             this.textBoxUsername.Size = new System.Drawing.Size(150, 20);
             this.textBoxUsername.TabIndex = 7;
@@ -315,7 +311,7 @@
             // textBoxMLastname
             // 
             this.textBoxMLastname.Location = new System.Drawing.Point(110, 105);
-            this.textBoxMLastname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxMLastname.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMLastname.Name = "textBoxMLastname";
             this.textBoxMLastname.Size = new System.Drawing.Size(150, 20);
             this.textBoxMLastname.TabIndex = 5;
@@ -333,7 +329,7 @@
             // textBoxPLastname
             // 
             this.textBoxPLastname.Location = new System.Drawing.Point(110, 68);
-            this.textBoxPLastname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPLastname.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPLastname.Name = "textBoxPLastname";
             this.textBoxPLastname.Size = new System.Drawing.Size(150, 20);
             this.textBoxPLastname.TabIndex = 3;
@@ -351,7 +347,7 @@
             // textBoxName
             // 
             this.textBoxName.Location = new System.Drawing.Point(110, 31);
-            this.textBoxName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(150, 20);
             this.textBoxName.TabIndex = 1;
@@ -370,9 +366,9 @@
             // 
             this.groupBoxGridView.Controls.Add(this.dataGridView1);
             this.groupBoxGridView.Location = new System.Drawing.Point(9, 145);
-            this.groupBoxGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxGridView.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxGridView.Name = "groupBoxGridView";
-            this.groupBoxGridView.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxGridView.Padding = new System.Windows.Forms.Padding(2);
             this.groupBoxGridView.Size = new System.Drawing.Size(676, 451);
             this.groupBoxGridView.TabIndex = 8;
             this.groupBoxGridView.TabStop = false;
@@ -391,7 +387,7 @@
             this.turnoDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.usuariosBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(4, 17);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -461,7 +457,7 @@
             // 
             this.buttonLogout.BackColor = System.Drawing.Color.Peru;
             this.buttonLogout.Location = new System.Drawing.Point(854, 10);
-            this.buttonLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLogout.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogout.Name = "buttonLogout";
             this.buttonLogout.Size = new System.Drawing.Size(106, 30);
             this.buttonLogout.TabIndex = 16;
@@ -477,13 +473,24 @@
             this.buttonPMenu.BackColor = System.Drawing.Color.Peru;
             this.buttonPMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPMenu.Location = new System.Drawing.Point(9, 10);
-            this.buttonPMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPMenu.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPMenu.Name = "buttonPMenu";
             this.buttonPMenu.Size = new System.Drawing.Size(106, 30);
             this.buttonPMenu.TabIndex = 20;
             this.buttonPMenu.Text = "Menu principal";
             this.buttonPMenu.UseVisualStyleBackColor = false;
             this.buttonPMenu.Click += new System.EventHandler(this.buttonPMenu_Click);
+            // 
+            // buttonSearchUser
+            // 
+            this.buttonSearchUser.BackColor = System.Drawing.Color.Gold;
+            this.buttonSearchUser.Location = new System.Drawing.Point(236, 75);
+            this.buttonSearchUser.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonSearchUser.Name = "buttonSearchUser";
+            this.buttonSearchUser.Size = new System.Drawing.Size(106, 30);
+            this.buttonSearchUser.TabIndex = 15;
+            this.buttonSearchUser.Text = "Buscar";
+            this.buttonSearchUser.UseVisualStyleBackColor = false;
             // 
             // Usuarios
             // 
@@ -502,7 +509,7 @@
             this.Controls.Add(this.groupBoxRegisterUser);
             this.Controls.Add(this.groupBoxGridView);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Usuarios";
             this.Text = "Administracion de Usuarios";
             this.Load += new System.EventHandler(this.Usuarios_Load);
